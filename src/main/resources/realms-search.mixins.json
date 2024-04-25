@@ -1,0 +1,11 @@
+{
+	"required": true,
+	"package": "com.realmssearch.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+		"RealmsSearchMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

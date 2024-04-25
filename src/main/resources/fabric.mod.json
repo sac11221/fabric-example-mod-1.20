@@ -1,0 +1,42 @@
+{
+	"schemaVersion": 1,
+	"id": "realms-search",
+	"version": "${version}",
+	"name": "Realms Search",
+	"description": "Adds a search bar to the Realms Minigame selection screen",
+	"accessWidener" : "realms-search.accessWidener",
+	"authors": [
+		"sac11221"
+	],
+	"contact": {
+		"homepage": "https://www.curseforge.com/minecraft/mc-mods/realms-minigame-search",
+		"sources": "https://github.com/sac11221/fabric-realmssearch-1.20.5"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/realms-search/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.realmssearch.RealmsSearch"
+		],
+		"client": [
+			"com.realmssearch.RealmsSearchClient"
+		]
+	},
+	"mixins": [
+		"realms-search.mixins.json",
+		{
+			"config": "realms-search.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.15.10",
+		"minecraft": "~1.20.5",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
