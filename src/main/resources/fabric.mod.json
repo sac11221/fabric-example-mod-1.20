@@ -10,7 +10,7 @@
 	],
 	"contact": {
 		"homepage": "https://www.curseforge.com/minecraft/mc-mods/realms-minigame-search",
-		"sources": "https://github.com/sac11221/fabric-realmssearch-1.20.5"
+		"sources": "https://github.com/sac11221/fabric-realms-search-1.20"
 	},
 	"license": "CC0-1.0",
 	"icon": "assets/realms-search/icon.png",
